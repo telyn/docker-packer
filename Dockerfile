@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-RUN apt-get update && apt-get install -y qemu-kvm wget git unzip make
+RUN apt-get update && apt-get install -y qemu-kvm wget git unzip make bsdtar
 
 ADD https://releases.hashicorp.com/packer/0.10.1/packer_0.10.1_linux_amd64.zip ./
 
